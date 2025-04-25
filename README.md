@@ -57,6 +57,8 @@ cd insightai
 pip install -r requirements.txt
 ```
 
+Instead of having a config.py file for maintaining global config variables, a .env (environment) file could also be used to manage the config variables.
+
 ### 2️⃣ Start OpenSearch locally
 
 ```bash
