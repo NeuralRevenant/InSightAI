@@ -1,0 +1,28 @@
+# Core Deep Learning
+torch>=2.2.0
+torchvision
+timm>=0.9.12                 # Used for ViT backbone (future use)
+
+# Transformers + Tokenization + Datasets
+transformers>=4.40.0         # Llama-3 and CLIP model loading
+datasets>=2.19.0             # VQAv2 dataset
+peft>=0.10.0                 # For LoRA / efficient tuning (future use)
+accelerate>=0.27.0           # For distributed + mixed precision
+
+# Vector search
+opensearch-py>=3.2.1         # OpenSearch k-NN vector index
+
+# Agentic planner (GPT-4o)
+openai>=1.23.0
+
+# Serving API
+fastapi>=0.110.0
+uvicorn>=0.29.0
+pydantic>=2.6                # Needed for FastAPI schema typing
+python-multipart             # Image upload via multipart/form-data
+
+# Image handling
+Pillow                       # For image I/O and resizing
+
+# Training framework
+pytorch_lightning>=2.2.0     # For modular training loop
