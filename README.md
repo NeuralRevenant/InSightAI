@@ -50,7 +50,7 @@ flowchart TD
 ### 1️⃣ Setup Environment
 
 ```bash
-git clone https://github.com/your-org/insightai
+git clone https://github.com/NeuralRevenant/InSightAI.git
 cd insightai
 
 # Install dependencies
